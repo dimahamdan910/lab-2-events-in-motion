@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  background-color: #f7f7f7;
+  color: #222;
+
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 70px 20px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+#message {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.button-area {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 12px 22px;
+  margin: 8px;
+
+  font-size: 16px;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  background-color: white;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background-color: #e8e8e8;
+}
+
+#box {
+  width: 170px;
+  height: 170px;
+
+  background-color: lightblue;
+
+  margin: 30px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 18px;
+
+  font-size: 18px;
+
+  transition: 0.3s;
+}
+
+.info {
+  margin-top: 25px;
+  font-size: 17px;
+}
+
+#status {
+  margin-top: 30px;
+
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/* MOOD BACKGROUNDS */
+
+.moodPink {
+  background-color: lightpink;
+}
+
+.moodBlue {
+  background-color: lightblue;
+}
+
+.moodYellow {
+  background-color: lightyellow;
+}
+
+.moodGreen {
+  background-color: lightgreen;
+}
+
+
+/* DARK MODE */
+
+.darkMode {
+  background-color: #222;
+  color: white;
+}
+
+.darkMode button {
+  background-color: #444;
+  color: white;
+}
+
+.darkMode button:hover {
+  background-color: #555;
+}
+
+.darkMode #box {
+  color: #222;
+}
